@@ -7,7 +7,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Menu {
-    ArrayList<IPessoa> listaDePessoas = new ArrayList<>();
+    public ArrayList<IPessoa> listaDePessoas = new ArrayList<>();
     public void showOptions() {
         Scanner scanner = new Scanner(System.in);
         String resposta;

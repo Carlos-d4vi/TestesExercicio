@@ -11,7 +11,7 @@ public class TesteMulherAdicionadaALista {
     public void TestMulherAdicionadaALista(){
         Menu menu = new Menu();
 
-        ArrayList<IPessoa> listaDePessoas = new ArrayList<>();
+        ArrayList<IPessoa> listaDePessoas = menu.listaDePessoas;
         /*Verifica se a lista inicia com 0 pessoas*/
         Assert.assertEquals(0, listaDePessoas.size());
 
