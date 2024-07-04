@@ -40,6 +40,7 @@ public class Menu {
                        System.out.println(" - " + mulher.getNome());
 
                    }
+                   break;
            }
 
        }while (!resposta.equalsIgnoreCase("3"));
